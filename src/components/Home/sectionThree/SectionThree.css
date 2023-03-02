@@ -1,0 +1,180 @@
+.sectionthree_bg {
+  background-image: url("../../../Assets/Images/23522.png");
+  width: 100%;
+  height: 735px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.text-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #00d1ff;
+}
+.text-des {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.mt {
+  margin-top: 0px;
+}
+
+.space {
+  margin-top: 100px;
+}
+
+.card-border {
+  width: 324px;
+  height: 360px;
+  background: #010017;
+  box-shadow: 0px 0px 12px 9px rgba(0, 255, 240, 0.38);
+  box-shadow: 0px 0px 12px 9px rgba(255, 230, 0, 0.7);
+  border-radius: 117px 20px 20px 20px;
+  border: 2px solid #faff00;
+  border-right: #faff00 8px solid;
+  border-bottom: #faff00 8px solid;
+  border-top: #faff00 2px solid;
+  border-left: #faff00 2px solid;
+}
+
+.circle-bg,
+.circle-bg1,
+.circle-bg2 {
+  width: 64px;
+  height: 64px;
+  background: #010017;
+  border-radius: 50px;
+}
+.circle-bg {
+  border: 1px solid #ffe600;
+}
+.circle-bg1 {
+  border: 1px solid #fd0093;
+}
+.circle-bg2 {
+  border: 1px solid #00fff0;
+}
+
+.text-2m,
+.text-3m,
+.text-4m {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 82px;
+}
+.text-2m {
+  color: #faff00;
+}
+.text-3m {
+  color: #fd0093;
+}
+.text-4m {
+  color: #00d1ff;
+}
+.text-title {
+  margin-top: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.card2-border {
+  width: 324px;
+  height: 360px;
+  background: #010017;
+  box-shadow: 0px 0px 12px 9px rgba(0, 255, 240, 0.38);
+  box-shadow: 0px 0px 12px 9px rgba(253, 0, 147, 0.6);
+  border-radius: 117px 20px 20px 20px;
+  border-right: #fd0093 8px solid;
+  border-bottom: #fd0093 8px solid;
+  border-top: #fd0093 1px solid;
+  border-left: #fd0093 1px solid;
+}
+
+.card3-border {
+  width: 324px;
+  height: 360px;
+  background: #010017;
+  box-shadow: 0px 0px 12px 9px rgba(0, 255, 240, 0.38);
+  box-shadow: 0px 0px 12px 9px rgba(0, 255, 240, 0.38);
+  border-radius: 117px 20px 20px 20px;
+  border-right: #00d1ff 8px solid;
+  border-bottom: #00d1ff 8px solid;
+  border-top: #00d1ff 1px solid;
+  border-left: #00d1ff 1px solid;
+}
+
+@media (max-width: 1024px) {
+  .text-heading {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .card-border,
+  .card2-border,
+  .card3-border {
+    width: 280px;
+  }
+  .text-title {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .text-heading {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  .text-des {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .sectionThree-responsive {
+    display: flex;
+    justify-content: center !important;
+  }
+  .card-border,
+  .card2-border,
+  .card3-border {
+    margin: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .card-border,
+  .card2-border,
+  .card3-border {
+    width: 90%;
+    /* margin: 20px; */
+  }
+  .text-heading {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .sectionthree_bg {
+    background-position: center;
+    background-size: cover;
+  }
+  .space {
+    margin-top: -38px;
+  }
+  .text-des {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .text-heading {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+}

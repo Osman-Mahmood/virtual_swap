@@ -1,0 +1,82 @@
+.bg{
+  background-color: #010017;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+.btn_connect_icon_bg {
+  left: -8px;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 2px 0px 0px 2px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.24);
+/* border-radius: 2px 0px 0px 2px; */
+}
+.btn_connection_wallet {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+
+/* ************************************** */
+
+.dropdown-menu-liqudity{
+  background-color: #1A102D;
+  
+}
+
+.dropdown-item-liqudity{
+  color: #01f7f7;
+}
+.dropdown-item-liqudity:hover{
+  background: #FD0093;
+  color: #fff;
+}
+
+/* connect buttton */
+.connect_button{
+  width: 100%;
+  height: 50px;
+  background: #01f7f7;
+  color: #010017;
+  font-size: 20px;
+  font-family: "poppins";
+  text-align: center;
+  border-radius: 5px;
+  border:none;
+}
+.connect_button:hover, .enable_btn:hover{
+  border:#01f7f7 1px solid  ;
+  color: #01f7f7;
+  font-weight: bolder;
+  background: none ;
+  /* width: 100%; */
+}
+.enable_btn{
+  width: 100%;
+  height: 50px;
+  background: #01f7f7;
+  color: #010017;
+  font-size: 15px;
+  font-family: "poppins";
+  text-align: center;
+  border-radius: 3px;
+  border:none;
+}

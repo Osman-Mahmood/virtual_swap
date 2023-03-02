@@ -1,0 +1,366 @@
+.swap-margin {
+  margin-top: 100px;
+}
+.graph-bg {
+  /* width: 655px; */
+  height: 477px;
+
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border: 1px solid #fd0093;
+  border-radius: 10px;
+}
+.swap-bg {
+  /* width: 480px; */
+  height: auto;
+
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border: 1px solid #fd0093;
+  border-radius: 10px;
+}
+.ellispe-one {
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  background: #180e2a;
+  border: 1px solid #fd0093;
+}
+.Virutalcoin {
+  position: relative;
+  bottom: 5px;
+}
+.coin {
+  position: relative;
+  bottom: 3px;
+}
+.BNB-VirtualSwap {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0px;
+  /* or 0% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.text-value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.text-coin {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.text-digit {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn-group {
+  width: 204px;
+  height: 43px;
+  background: #0c0715;
+  border-radius: none;
+}
+/* .btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+} */
+.btn:hover {
+  background: #4300bb;
+  color: #ffffff;
+}
+.btn-1,
+.btn-2,
+.btn-3 {
+  border-right: 1px solid #40276c;
+}
+.text-time {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ellispe-two {
+  width: 36px;
+  height: 36px;
+  background: #170d28;
+  border: 1px solid #fd0093;
+  border-radius: 50%;
+}
+.signal-icon {
+  position: relative;
+  top: 8px;
+}
+.margin-swap {
+  position: relative;
+  top: -20px;
+}
+.tswap {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  /* identical to box height, or 0% */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.tswap2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  /* identical to box height, or 0% */
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.input-group-text {
+  width: 68px;
+  height: 60px;
+  background: #160d27;
+  z-index: 1;
+  border: none;
+}
+.form-control {
+  width: 100%;
+  height: 60px;
+  background: #020028 !important;
+  border: none;
+  color: white;
+}
+.form-control::placeholder {
+  color: white !important;
+}
+.form-control:focus
+{
+  color: white !important;
+}
+.form-control {
+  width: 387px;
+  height: 60px;
+  background: #0c0715;
+  color: #583d87;
+
+  border: none;
+}
+.input-group {
+  box-shadow: 1px 1px 35px -3px #01f7f7;
+}
+.dropdown {
+  /* z-index: 100; */
+  background: none !important;
+}
+.btn-drop {
+  font-family: "Poppins";
+  font-style: normal;
+  /* identical to box height, or 293% */
+font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: none;
+}
+.btn-drop:hover {
+  background: none;
+  border: none;
+  color: #01f7f7;
+}
+.copy-bg {
+  width: 35px;
+  height: 35px;
+  background: #0a0511;
+  border: 1px dashed #01f7f7;
+  border-radius: 50%;
+
+  position: relative;
+  top: -19px;
+  margin-right: 13px;
+}
+.tsnack {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.tslippage {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tslippagevalue {
+  color: #04ebea;
+}
+.btn_conn_bg {
+  width: 270px;
+  height: 67px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px rgba(255, 0, 0, 0.47);
+  border-radius: 2px 2px 40px 2px;
+  border: none;
+}
+.btn_conn_icon_bg {
+  position: relative;
+  left: -8px;
+  width: 64px;
+  height: 67px;
+  background: #04ebea;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
+}
+.btn_conn {
+  width: 156px;
+  height: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.25);
+}
+.tbridge {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.thelp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.exchangeIcon {
+  margin-right: 20px;
+}
+.CopyIcon {
+  margin-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .responsive-swap2 {
+    margin-top: 64px;
+  }
+  .exchangeIcon {
+    margin-right: 30px;
+  }
+  .graph-bg {
+    height: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-swap-input {
+    padding: 10px;
+  }
+  .graph-bg {
+    height: 477px;
+  }
+}
+
+@media (max-width: 425px) {
+  .CopyIcon {
+    margin-right: -17px;
+  }
+  .exchangeIcon {
+    margin-right: -20px;
+  }
+  .tsnack {
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  .tslippage {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  /* .responsive-swap-Tsnack{
+    margin-top: -5px;
+  } */
+  .text-time {
+    font-size: 9px;
+    margin-top: -20px !important;
+  }
+  .tbridge {
+    font-size: 12px;
+  }
+  .thelp {
+    font-size: 12px;
+  }
+  .BNB-VirtualSwap {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  .responsive-swap-virtual {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .text-value {
+    font-size: 20px;
+  }
+  .text-digit {
+    font-size: 12px;
+  }
+  .graph-bg {
+    height: 420px;
+  }
+  .responsive-swap-button {
+    margin-top: 10px;
+  }
+}

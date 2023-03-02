@@ -1,0 +1,822 @@
+/* .farms_bg {
+  width: 100%;
+  height: 545px !important;
+  background: #020028;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.tfarms {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.tstake {
+  margin-top: 0px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.btn_com_bg {
+  width: 233px;
+  height: 56px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+  border: none;
+}
+.btn_com_icon_bg {
+  width: 53px;
+  height: 56px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 0px 0px 2px;
+}
+.btn_com {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ArrowIcon {
+  position: relative;
+  left: -3px;
+  top: 7px;
+}
+.frms-bg {
+  /* width: 368px; */
+  height: 313px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border: 1px solid #fd0093;
+  border-radius: 10px 10px 70px 10px;
+}
+.tYield {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height, or 0% */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.tconnectWallet {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  /* identical to box height, or 0% */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.tanactive {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  color: #ffffff;
+}
+.btn_Connect_Wallet_bg {
+  margin-top: 40px;
+  width: 270px;
+  height: 59px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px rgba(255, 0, 0, 0.47);
+  border-radius: 2px 2px 40px 2px;
+  border: none;
+}
+.btn_Connect_Wallet_icon_bg {
+  position: relative;
+  left: -8px;
+  width: 64px;
+  height: 59px;
+  background: #04ebea;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
+}
+.b:hover {
+  background-color: #fd0093;
+}
+.form-check-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.form-check-input:checked {
+  background-color: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 30px;
+}
+
+.form-switch .form-check-input:checked {
+  background-position: right center;
+  background-image: url(../../../Assets/Images/Rectangle93.png);
+}
+.form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #020028;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid #fd0093 !important;
+  border-radius: 30px;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.form-switch .form-check-input {
+  width: 2em;
+  margin-left: -2.5em;
+  background-image: url(../../../Assets/Images/Rectangle93.png) !important;
+  background-position: left center;
+  border-radius: 2em;
+  transition: background-position 0.15s ease-in-out;
+}
+.btn-group-lg {
+  width: 190px;
+  height: 40px;
+
+  background: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 5px;
+}
+.btn-Live {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.btn-Live:hover {
+  background-color: #fd0093;
+  border: 1px solid #fd0093;
+  border-radius: 5px;
+}
+.form-control1 {
+  width: 150px;
+  height: 40px;
+  background: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 5px;
+}
+.inputBack {
+  width: 150px;
+  height: 40px;
+  background: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.table-heading {
+  height: 44px;
+  background: #040052;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.table-row {
+  height: 70px;
+  background: #030039;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.btn-core {
+  width: 69px;
+  height: 32px;
+  background: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.btn-boosted {
+  width: 86px;
+  height: 32px;
+  background: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.tdiscount {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #fd0093;
+}
+.tsort {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.search-input {
+  width: 150px;
+  height: 40px;
+  background: #020028;
+  border: 1px solid #fd0093;
+  border-radius: 5px;
+}
+::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #7b76dd;
+}
+.link_hover {
+  width: 43px;
+  height: 40px;
+}
+.link_hover:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 40px;
+  background-color: #fd0093;
+  border-radius: 5px;
+}
+/* ***************************************************Fgrid component********************************************** */
+.Fcard-1 {
+  width: 353px;
+  height: 463px;
+  background: #010017;
+  border: 1px solid #ffe600;
+  box-shadow: 0px 0px 12px 9px rgba(255, 230, 0, 0.7);
+  border: 2px solid #faff00;
+  border-radius: 117px 20px 20px 20px;
+  border-right: #faff00 8px solid;
+  border-bottom: #faff00 8px solid;
+  border-top: #faff00 2px solid;
+  border-left: #faff00 2px solid;
+}
+.Fcircle1 {
+  width: 80px;
+  height: 80px;
+  background: #010017;
+  border: 1px solid #ffe600;
+  border-radius: 50%;
+}
+.tvs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #faff00;
+}
+.btn-core1 {
+  width: 53px;
+  height: 32px;
+
+  background: #020028;
+  border: 1px solid #faff00;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.btn-boosted1 {
+  width: 76px;
+  height: 32px;
+  background: #020028;
+  border: 1px solid #faff00;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.btn-40x1 {
+  width: 46px;
+  height: 32px;
+  background: #020028;
+  border: 1px solid #faff00;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.coinIcon1 {
+  position: relative;
+  left: 2px;
+  top: 6px;
+}
+.tAPR {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.tDel {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  /* identical to box height */
+  text-decoration-line: line-through;
+  color: #ffffff;
+}
+.tUpto {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #fd0093;
+}
+.tVSF {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.btn-harvest {
+  width: 104px;
+  height: 38px;
+  background: #fd0093;
+  border-radius: 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+.tyield {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.t2x {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+}
+.text-activater {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* or 0% */
+
+  color: #ffffff;
+}
+.text-cake {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.05em;
+  color: #fd0093;
+}
+.tDetail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+
+  color: #01f7f7;
+}
+.btn_Fgird {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.btn_Fgird_bg {
+  width: 233px;
+  height: 48px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+  border: none;
+}
+.btn_fgird_icon_bg {
+  width: 53px;
+  height: 48px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 0px 0px 2px;
+}
+.Fcard-2 {
+  width: 353px;
+  height: 463px;
+  background: #010017;
+  background: #010017;
+  border: 1px solid #fd0093;
+  box-shadow: 0px 0px 12px 9px rgba(253, 0, 147, 0.6);
+  border-radius: 117px 20px 20px 20px;
+  border-radius: 117px 20px 20px 20px;
+  border-right: #fd0093 8px solid;
+  border-bottom: #fd0093 8px solid;
+  border-top: #fd0093 2px solid;
+  border-left: #fd0093 2px solid;
+}
+.Fcircle2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #010017;
+  border: 1px solid #fd0093;
+}
+.Fcard-3 {
+  width: 353px;
+  height: 463px;
+  background: #010017;
+  border: 1px solid #00ffff;
+  box-shadow: 0px 0px 12px 9px rgba(0, 255, 240, 0.38);
+  border-radius: 117px 20px 20px 20px;
+  border-radius: 117px 20px 20px 20px;
+  border-right: #00ffff 8px solid;
+  border-bottom: #00ffff 8px solid;
+  border-top: #00ffff 2px solid;
+  border-left: #00ffff 2px solid;
+}
+.Fcircle3 {
+  width: 80px;
+  height: 80px;
+  background: #010017;
+  border: 1px solid #01f7f7;
+  border-radius: 50%;
+}
+.Fcard-1,
+.Fcard-2,
+.Fcard-3 {
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+}
+
+@media (max-width: 1024px) {
+  .Fcard-1,
+  .Fcard-2,
+  .Fcard-3 {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  /* .responsive-Fcard{
+        padding: 10px;
+
+    } */
+
+  .table-row,
+  .tdiscount {
+    font-size: 12px;
+    text-align: center;
+  }
+  .table {
+    overflow-x: auto !important;
+  }
+  .Fcircle1,
+  .Fcircle2,
+  .Fcircle3 {
+    width: 50px;
+    height: 50px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .Fcard-1,
+  .Fcard-2,
+  .Fcard-3 {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .link_hover {
+    width: 30px;
+    height: 40px;
+  }
+  .link_hover:hover {
+    width: 30px;
+  }
+  .table {
+    overflow-x: auto !important;
+  }
+  .tfarms {
+    font-size: 65px;
+  }
+  .responsive-Fcard {
+    padding: 30px;
+  }
+  .Fcircle1,
+  .Fcircle2,
+  .Fcircle3 {
+    width: 50px;
+    height: 50px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .Fcard-1,
+  .Fcard-2,
+  .Fcard-3 {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+  }
+  .farm-responsive {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .btn-farm-responsive {
+    width: 100%;
+  }
+  .btn-Live,
+  .btn-group {
+    width: 100%;
+  }
+  .inputBack,
+  .search-input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .table {
+    overflow-x: auto !important;
+  }
+  .tfarms {
+    font-size: 55px;
+  }
+  .responsive-Fcard {
+    padding: 10px;
+  }
+  .Fcircle1,
+  .Fcircle2,
+  .Fcircle3 {
+    width: 50px;
+    height: 50px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .Fcard-1,
+  .Fcard-2,
+  .Fcard-3 {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .tfarms {
+    font-size: 45px;
+  }
+  .tYield {
+    font-size: 25px;
+  }
+  .form-check-label {
+    font-size: 10px;
+  }
+  .btn-Live {
+    font-size: 10px;
+  }
+  .responsive-Fcard {
+    padding: 10px;
+  }
+  .Fcircle1,
+  .Fcircle2,
+  .Fcircle3 {
+    width: 50px;
+    height: 50px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .tAPR {
+    font-size: 12px;
+  }
+  .Fcard-1,
+  .Fcard-2,
+  .Fcard-3 {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+  }
+
+  .table {
+    overflow-x: auto !important;
+  }
+}
+
+/* table{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  overflow-x: auto;
+} */
+
+/* .dtHorizontalExampleWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  } */
+th,
+td {
+  gap: 10px;
+  white-space: nowrap;
+}
+
+/* table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc_disabled:after,
+  table.dataTable thead .sorting_desc_disabled:before {
+   bottom: .1em;
+  } */
+/* ************ */
+.accordion-item,
+.accordion-button {
+  border-radius: 20px;
+  background: #040051 !important;
+  color: white;
+  margin-right: 10px;
+}
+.accordion-body {
+  background: #040051 !important;
+  color: white;
+  fill: white;
+}
+.accordion-button:hover {
+  background: #030039 !important;
+  color: white;
+  border: none !important;
+}
+.accordion-button:active,
+.accordion-body:active {
+  background: #030039 !important;
+  color: white;
+  border: none !important;
+}
+.accordion-button::after {
+  color: white !important;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #279c88;
+  outline: 0 !important;
+  /* I changed the color on this line */
+  /* If you do not want any color, just delete */
+}
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+.text-accordion {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #9b005aa9;
+  font-weight: bolder;
+}
+.farming_box {
+  border-radius: 10px;
+  background: #030039;
+  border: #fd0093 solid 1px;
+  /* box-shadow: 0px 20px 24px 3px #01f7f7; */
+}
+.btn_Farm {
+  border: #fd0093 solid 1px;
+  color: #fd0093;
+  font-weight: bold;
+  font-family: "poppins";
+  background: #030039;
+}
+.btn_Farm:hover {
+  border: #030039 solid 1px;
+  color: #030039;
+  background: #fd0093;
+}
+.text_virtualEarned {
+  font-size: 14px;
+  font-family: "poppins";
+}
+.text_virtualEarnedUp {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "poppins";
+}
